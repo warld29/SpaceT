@@ -11,246 +11,157 @@
     <title>Document</title>
   </head>
   <body>
-    <main class="main-wrapper">
-      <header id="home">
-        <div class="navigation">
-          <div class="logo">
-            <img src="images/brand.png" alt="" />
-          </div>
-          <div class="centered"></div>
+    <!----------------------------NAVIGATION----------------------------------->
+    <header>
+      <div class="navigation">
+        <div class="logo">
+          <img src="images/brand.png" alt="" />
+        </div>
+        <div class="centered"></div>
 
-          <div class="bar" id="bar">
-            <i class="fa-solid fa-bars fa-xl"></i>
-          </div>
-
-          <div class="navBar glass">
-            <ul>
-              <li>
-                <a href="#" class="close" id="close"
-                  ><i class="fa-solid fa-xmark fa-xl"></i
-                ></a>
-              </li>
-
-              <li><a href="#home">00 HOME</a></li>
-              <li><a href="#destination">01 DESTINATION</a></li>
-              <li><a href="#crew">02 CREW</a></li>
-              <li><a href="#technology">03 TECHNOLOGY</a></li>
-            </ul>
-          </div>
+        <div class="bar" id="bar">
+          <i class="fa-solid fa-bars fa-xl"></i>
         </div>
 
-        <div class="home" id="xhome">
-          <div class="travel">
-            <h2>SO, YOU WANT TO TRAVEL TO</h2>
-            <h1>SPACE</h1>
-            <p>
-              Let's face it; if you want to go to space, you might as well
-              <br />genuinely go to outer space and not hover kind of on the
-              <br />
-              edge of it. Well sit back, and relax because we'll give you <br />
-              a truly out of this world experience!
-            </p>
-          </div>
+        <div class="navBar glass">
+          <ul>
+            <li>
+              <a href="#" class="close" id="close"
+                ><i class="fa-solid fa-xmark fa-xl"></i
+              ></a>
+            </li>
 
-          <div class="rounded">
-            <h2>EXPLORE</h2>
-          </div>
+            <li><a href="#section1" class="show-screen">00 HOME</a></li>
+            <li><a href="#section2" class="show-screen">01 DESTINATION</a></li>
+            <li><a href="#section3" class="show-screen">02 CREW</a></li>
+            <li><a href="#section4" class="show-screen">03 TECHNOLOGY</a></li>
+          </ul>
         </div>
-      </header>
+      </div>
+    </header>
+
+    <!----------------------------MAIN----------------------------------->
+
+    <main id="section1" class="screen" style="display: block">
+      <div class="home1" id="home1">
+        <div class="intro">
+          <h2>SO, YOU WANT TO TRAVEL TO SPACE</h2>
+          <h1>SPACE</h1>
+          <p>
+            Let's face it; If you want to go to space, you might as well <br />
+            genuinely go to outer spaceand not hover kind of on the <br />
+            edge of it. Well sit back, and relxa because we'll give you <br />
+            a truly out of the world experience!
+          </p>
+        </div>
+
+        <div class="explore">
+          <h5>EXPLORE!</h5>
+        </div>
+      </div>
     </main>
 
-    <section>
-      <div class="destination" id="destination">
-        <div class="navigation">
-          <div class="logo">
-            <img src="images/brand.png" alt="" />
-          </div>
-          <div class="centered"></div>
-
-          <div class="bar" id="bar">
-            <i class="fa-solid fa-bars fa-xl"></i>
-          </div>
-
-          <div class="navBar glass">
-            <ul>
-              <li>
-                <a href="#" class="close" id="close"
-                  ><i class="fa-solid fa-xmark fa-xl"></i
-                ></a>
-              </li>
-
-              <li><a href="#home">00 HOME</a></li>
-              <li><a href="#destination">01 DESTINATION</a></li>
-              <li><a href="#crew">02 CREW</a></li>
-              <li><a href="#technology">03 TECHNOLOGY</a></li>
-            </ul>
+    <!----------------------------SECTION----------------------------------->
+    <section id="section2" class="screen" style="display: none">
+      <div class="destination1" id="destination1">
+        <div class="moonImage">
+          <h2><span class="gray">01</span>PICK YOUR DESTINATION</h2>
+          <div class="pic">
+            <img src="images/FULLmOON.png" alt="" />
           </div>
         </div>
 
-        <div class="theMoon">
-          <div class="image">
-            <h2><span>01</span>PICK YOUR DESTINATION</h2>
-            <img src="images/FULLmOON.png" alt="" />
-          </div>
-
-          <div class="location">
-            <div class="spaceLocation">
-              <ul>
-                <li id="moon"><a href="linkMoon">MOON</a></li>
-                <li id="mars"><a href="linkMars">MARS</a></li>
-                <li id="jupiter"><a href="linkJupiter">JUPITER</a></li>
-                <li id="neptune"><a href="linkNeptune">NEPTUNE</a></li>
-              </ul>
-
-              <ol>
-                <li class="linkMoon">MOON</li>
-                <li class="linkMars">MARS</li>
-                <li class="linkJupiter">JUPITER</li>
-                <li class="linkNeptune">NEPTUNE</li>
-              </ol>
-
-              <p>
-                Don't forget o pack your hoking boots. You'll need them <br />to
-                tackle Olympus Mons, the tallest planetary mountain in <br />our
-                solar system. It's two and a half times the size of
-                <br />Everest!
-              </p>
-
-              <div class="slimLine"></div>
-
-              <div class="distance">
-                <div class="info">
-                  <h3>AVG. DISTANCE</h3>
-                  <h4>225 MIL. KM</h4>
-                </div>
-                <div class="info">
-                  <h3>EST. TRAVEL TIME</h3>
-                  <h4>9 MONTHS</h4>
-                </div>
-              </div>
+        <div class="description">
+          <ul>
+            <li><a href="#">MARS</a></li>
+            <li><a href="#" class="moonlit">MOON</a></li>
+            <li><a href="#">JUPITER</a></li>
+            <li><a href="#">PLUTO</a></li>
+          </ul>
+          <h2>MOON</h2>
+          <p>
+            Don't forget to pack your hiking boots. You will need them <br />
+            to tackle Olympus Mons, the tallest plantary mountain in <br />
+            the solar system. Its two and a half times the size of <br />
+            Everest!
+          </p>
+          <p class="line"></p>
+          <div class="distance">
+            <div class="dis">
+              <p>AVG. DISTANCE</p>
+              <h2>225 MIL. KM</h2>
+            </div>
+            <div class="time">
+              <p>EST. TRAVEL TIME</p>
+              <h2>9 MONTHS</h2>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <article>
-      <div class="crew" id="crew">
-        <div class="navigation">
-          <div class="logo">
-            <img src="images/brand.png" alt="" />
-          </div>
-          <div class="centered"></div>
+    <article id="section3" class="screen" style="display: none">
+      <div class="crew1" id="crew1">
+        <div class="engineer">
+          <h2><span class="gray">02</span>MEET YOUR CREW</h2>
 
-          <div class="bar" id="bar">
-            <i class="fa-solid fa-bars fa-xl"></i>
-          </div>
-
-          <div class="navBar glass">
-            <ul>
-              <li>
-                <a href="#" class="close" id="close"
-                  ><i class="fa-solid fa-xmark fa-xl"></i
-                ></a>
-              </li>
-
-              <li><a href="#home">00 HOME</a></li>
-              <li><a href="#destination">01 DESTINATION</a></li>
-              <li><a href="#crew">02 CREW</a></li>
-              <li><a href="#technology">03 TECHNOLOGY</a></li>
-            </ul>
+          <div class="information">
+            <h3>FLIGHT ENGINEER</h3>
+            <h4>JEFFRIES STAR ESTHER</h4>
+            <p>
+              Jeffries Star is a Nigerian Engineer and co- <br />founder of
+              Proden system. Jeffries was the forth self- <br />funded space
+              tourist, the first non-funded woman to fly <br />the ISS, and the
+              first Nigerian in space.
+            </p>
+            <div class="dottes">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot light"></div>
+            </div>
           </div>
         </div>
 
-        <div class="meetCrew">
-          <div class="crewInfo">
-            <h2><span>02</span>MEET YOUR CREW</h2>
-            <h3 class="gold">FLIGHT ENGINEER</h3>
-            <h3 class="expand">OBI CHIKAH ESTHER</h3>
-            <p>
-              Obi Chikah Esther is an Nigerian engineer and co- <br />founder of
-              Prodea Systems. Obi was fourth self- <br />funded space tourist,
-              the first self-funded woman to fly <br />to the ISS, and the first
-              Nigerian in space.
-            </p>
-
-            <div class="option">
-              <div class="gray"></div>
-              <div class="gray"></div>
-              <div class="gray"></div>
-              <div class="white-bg"></div>
-            </div>
-          </div>
-
-          <div class="crewImage">
-            <img src="images/newSpeaker.png" alt="" />
-          </div>
+        <div class="crewImage">
+          <img src="images/newSpeaker.png" alt="" />
         </div>
       </div>
     </article>
 
-    <aside id="technology">
-      <div class="technology" id="technology">
-        <div class="navigation">
-          <div class="logo">
-            <img src="images/brand.png" alt="" />
+    <!---------------ASIDE------------------------->
+
+    <aside id="section4" class="screen" style="display: none">
+      <div class="technology1">
+        <div class="tech">
+          <div class="heading">
+            <h2><span class="gray">02</span>MEET YOUR CREW</h2>
           </div>
-          <div class="centered"></div>
-
-          <div class="bar" id="bar">
-            <i class="fa-solid fa-bars fa-xl"></i>
-          </div>
-
-          <div class="navBar glass">
-            <ul>
-              <li>
-                <a href="#" class="close" id="close"
-                  ><i class="fa-solid fa-xmark fa-xl"></i
-                ></a>
-              </li>
-
-              <li><a href="#home">00 HOME</a></li>
-              <li><a href="#destination">01 DESTINATION</a></li>
-              <li><a href="#crew">02 CREW</a></li>
-              <li><a href="#technology">03 TECHNOLOGY</a></li>
-            </ul>
+          <div class="launch">
+            <div class="list">
+              <ul>
+                <li class="white">1</li>
+                <li>2</li>
+                <li>3</li>
+              </ul>
+            </div>
+            <div class="launchTerm">
+              <p class="term">THE TERMINOLOGY...</p>
+              <h4>LAUNCH VEHICLE</h4>
+              <p>
+                A launch vehicle or carrier rocket ia a rocket-propelled
+                <br />vehicle use to carry a pay load from Earth's surface to
+                <br />to space, usually to Earth orbit or beyoun. Our WEB-X
+                <br />carrier rocket is the most powerful in operation.
+                <br />Standing 150 metres tall, it's quite an awe-inspiring
+                sight. <br />on the launch pad!
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="technology">
-        <div class="terminology">
-          <div class="log">
-            <div class="tech">
-              <h2><span>03</span>SPACE LAUNCH 101</h2>
-            </div>
-            <div class="numbering">
-              <div class="listItem">
-                <ul>
-                  <li class="whiteList">1</li>
-                  <li class="navyBlu">2</li>
-                  <li class="navyBlu">3</li>
-                </ul>
-              </div>
-
-              <div class="launchVehicle">
-                <h3>THE TECHNOLOGY...</h3>
-                <h4>LAUNCH VEHICLE</h4>
-                <p>
-                  A launch vehicle or carrier rocket is a rocket-propelled
-                  <br />vehicle used to carry a payload from Earth's surface to
-                  <br />space. Usually to Earth orbit or beyond. <br />Our WEB-X
-                  carrier rocket is the most powerful in operation.
-                  <br />Standing 150 meters tall, it's quite an awe-inspiring
-                  sight on th launch pad!
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="launch-image">
-            <img src="images/spaceship launch.jpg" alt="" />
-          </div>
+        <div class="launchRocket">
+          <img src="images/spaceship launch.jpg" alt="" />
         </div>
       </div>
     </aside>
